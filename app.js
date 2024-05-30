@@ -21,7 +21,7 @@ function sortear() {
     for (let i = 0; i < quantidade; i++){
         let numero = obterNumeroAleatorio(de, ate);
 
-        while (sorteados.includes(numero)) { //include devolve um valor booleano
+        while (sorteados.includes(numero)) { //include devolve um valor booleano.
             numero = obterNumeroAleatorio(de, ate);
             alert('Tentando obter número inédito');
         }
